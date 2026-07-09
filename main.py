@@ -15,7 +15,7 @@ Description:
 
     Receives a user's question, retrieves the most
     relevant document context using RAG, sends the
-    generated prompt to Gemini, and displays the
+    generated prompt to the LLM, and displays the
     final answer.
 
 Course:
@@ -23,8 +23,13 @@ Course:
 ------------------------------------------------------------
 """
 
-from scripts.rag import retrieve
 from scripts.llm import generate_answer
+from scripts.rag import (
+    retrieve,
+    load_faiss_index,
+    load_metadata,
+    load_embedding_model
+)
 
 
 def main():
@@ -36,6 +41,14 @@ def main():
     print("Mesopotamia RAG Assistant")
     print("=" * 60)
 
+    print("\nLoading resources...")
+
+    index = load_faiss_index()
+    metadata = load_metadata()
+    model = load_embedding_model()
+
+    print("System ready!")
+
     while True:
 
         question = input("\nAsk a question (or type 'exit'): ").strip()
@@ -46,7 +59,12 @@ def main():
 
         print("\nSearching relevant information...")
 
-        prompt = retrieve(question)
+        prompt = retrieve(
+            question=question,
+            model=model,
+            index=index,
+            metadata=metadata
+        )
 
         print("Generating answer...\n")
 

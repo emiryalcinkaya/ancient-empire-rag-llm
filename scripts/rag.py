@@ -226,7 +226,13 @@ Answer:
 # Main Retrieval Pipeline
 # ----------------------------------------------------------
 
-def retrieve(question, top_k=3):
+def retrieve(
+    question,
+    model,
+    index,
+    metadata,
+    top_k=3
+):
     """
     Complete retrieval pipeline.
 
@@ -234,18 +240,18 @@ def retrieve(question, top_k=3):
     ----------
     question : str
 
+    model : SentenceTransformer
+
+    index : faiss.Index
+
+    metadata : list
+
     top_k : int
 
     Returns
     -------
     str
     """
-
-    index = load_faiss_index()
-
-    metadata = load_metadata()
-
-    model = load_embedding_model()
 
     retrieved_chunks = search_similar_chunks(
         question=question,
