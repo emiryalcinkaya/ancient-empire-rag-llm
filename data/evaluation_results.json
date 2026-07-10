@@ -1,0 +1,381 @@
+{
+    "configuration": {
+        "top_k": 3,
+        "llm_comparison_enabled": true
+    },
+    "summary": {
+        "total_questions": 9,
+        "top_k": 3,
+        "correct_retrievals": 8,
+        "top_k_retrieval_accuracy": 0.8888888888888888,
+        "average_retrieval_time_seconds": 0.31122179188403404,
+        "average_similarity_score": 0.5631334704381448,
+        "average_without_rag_llm_time_seconds": 15.920119995406518,
+        "average_with_rag_llm_time_seconds": 11.720156546565704,
+        "average_total_rag_time_seconds": 12.031378338449738
+    },
+    "test_results": [
+        {
+            "question": "Why is Mesopotamia called the cradle of civilization?",
+            "expected_sections": [
+                "Introduction to Mesopotamia"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.6088209169683978,
+            "average_similarity_score": 0.6290362278620402,
+            "retrieved_chunks": [
+                {
+                    "chunk_id": 2,
+                    "source_page": 2,
+                    "section_title": "1. Introduction to Mesopotamia",
+                    "text": "1. Introduction to Mesopotamia Mesopotamia was one of the earliest centers of human civilization and is widely recognized as the cradle of civilization. The name \"Mesopotamia\" comes from the ancient Greek words meaning \"land between rivers,\" referring to the region located between the Tigris and Euphrates rivers. Most of this historical region lies within present-day Iraq, while parts extend into modern-day Syria, southeastern Turkey, southwestern Iran, and Kuwait. Human settlement in Mesopotamia began thousands of years ago during the Neolithic period. The fertile land and reliable water supply provided by the rivers allowed early communities to develop agriculture, establish permanent settlements, and eventually build some of the world's first cities. These developments marked the beginning of organized civilization and transformed human societies from small farming villages into complex urban communities. Mesopotamia is considered one of the most influential regions in world history because many fundamental innovations first emerged there. Early Mesopotamian civilizations developed writing systems, organized governments, legal codes, mathematics, astronomy, irrigation techniques, and large-scale agriculture. Many of these achievements influenced later civilizations throughout the ancient Near East and beyond. Rather than being a single unified civilization, Mesopotamia was home to several successive cultures and kingdoms. The Sumerians established some of the earliest city-states, followed by the Akkadians, Babylonians, and Assyrians, each making significant contributions to politics, religion, science, architecture, literature, and military organization. Although these civilizations differed in language and political structure, they shared many cultural traditions and built upon the achievements of their predecessors. Today, Mesopotamia remains one of the most important subjects in archaeology and ancient history. Thousands of clay tablets, monuments, and archaeological sites continue to provide valuable information about the origins of cities, government, religion, writing, and many other aspects of early human civilization.",
+                    "word_count": 289,
+                    "similarity_score": 0.6373076438903809
+                },
+                {
+                    "chunk_id": 19,
+                    "source_page": 10,
+                    "section_title": "9. Daily Life, Society, and Economy",
+                    "text": "rulers to organize resources more efficiently. The combination of productive agriculture, organized trade, skilled craftsmanship, and written administration created a strong economic system that supported the development of Mesopotamian civilization. Daily life depended on cooperation between farmers, merchants, artisans, officials, and religious institutions, allowing the world's earliest cities to flourish for thousands of years.",
+                    "word_count": 54,
+                    "similarity_score": 0.6260821223258972
+                },
+                {
+                    "chunk_id": 23,
+                    "source_page": 12,
+                    "section_title": "11. Cuneiform Writing",
+                    "text": "the foundations of organized government, education, economic management, and cultural development, making it one of the greatest achievements of ancient Mesopotamia.",
+                    "word_count": 21,
+                    "similarity_score": 0.6237189173698425
+                }
+            ],
+            "without_rag_answer": "Mesopotamia, which refers to the region between the Tigris and Euphrates rivers in modern-day Iraq, is commonly referred to as the \"cradle of civilization\" because it was home to some of the earliest known civilizations that emerged around 4500-1900 BCE. During this period, Mesopotamian cities such as Ur, Babylon, and Nineveh developed complex societies with writing, governance, architecture, and social hierarchies.\n\nSeveral reasons justify this designation:\n\n1. **Writing**: Mesopotamia is credited with the invention of cuneiform script around 3200 BCE. This writing system allowed for the recording of laws, trade agreements, literature, and administrative records.\n2. **City-states**: The region saw the emergence of city-states, such as Uruk and Eridu, which were characterized by complex governance structures, division of labor, and social hierarchies.\n3. **Agriculture**: Mesopotamia was home to some of the earliest agricultural innovations, including irrigation systems, plows, and crop rotation techniques.\n4. **Trade and commerce**: The region's strategic location facilitated trade with neighboring regions, such as Egypt, Anatolia, and Persia, which led to cultural exchange, economic growth, and the development of urban centers.\n\nIn summary, Mesopotamia is considered the \"cradle of civilization\" because it was where many of the fundamental innovations that define modern society first emerged: writing, city-states, agriculture, trade, and commerce.",
+            "without_rag_response_time_seconds": 16.75061820796691,
+            "with_rag_answer": "Mesopotamia was called the \"cradle of civilization\" because the name \"Mesopotamia\" comes from the ancient Greek words meaning \"land between rivers,\" referring to the region located between the Tigris and Euphrates rivers. (Context, Section 1)",
+            "with_rag_response_time_seconds": 7.2629492089618,
+            "total_rag_time_seconds": 7.8717701259301975
+        },
+        {
+            "question": "What was cuneiform used for?",
+            "expected_sections": [
+                "Cuneiform Writing",
+                "The Sumerians"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.08683120901696384,
+            "average_similarity_score": 0.49124141534169513,
+            "retrieved_chunks": [
+                {
+                    "chunk_id": 22,
+                    "source_page": 12,
+                    "section_title": "11. Cuneiform Writing",
+                    "text": "11. Cuneiform Writing Cuneiform was one of the earliest writing systems in human history and was first developed by the Sumerians around the mid-fourth millennium BCE. It began as a practical method for recording economic activities such as trade, taxes, agricultural production, and stored goods. Over time, cuneiform evolved into a sophisticated writing system used for government administration, literature, religion, science, mathematics, and law. The name \"cuneiform\" means \"wedge-shaped\" because scribes created the symbols by pressing the pointed end of a reed stylus into soft clay tablets. After being written, the tablets were dried in the sun or baked in ovens, allowing them to survive for thousands of years. Millions of these clay tablets have been discovered by archaeologists, providing valuable information about everyday life, government, religion, education, and commerce in ancient Mesopotamia. Although cuneiform was originally created for the Sumerian language, it was later adapted for other languages, especially Akkadian, which became the dominant language of Mesopotamia during the Babylonian and Assyrian periods. Even after Akkadian replaced Sumerian as the spoken language, Sumerian continued to be used in religious ceremonies, literature, and scholarly works for many centuries. Writing required specialized training, and only educated scribes were able to master the large number of cuneiform signs. Scribes studied in special schools where they learned reading, writing, mathematics, and record keeping. Their work was essential for managing government documents, legal contracts, taxes, trade, temple activities, and royal administration. The invention of writing transformed Mesopotamian civilization by making it possible to preserve knowledge across generations. Laws, historical events, scientific observations, myths, religious texts, and administrative records could all be documented and stored permanently. Cuneiform became one of the foundations of organized government, education, economic management, and cultural development, making it one of the greatest achievements of ancient Mesopotamia.",
+                    "word_count": 296,
+                    "similarity_score": 0.6406132578849792
+                },
+                {
+                    "chunk_id": 13,
+                    "source_page": 7,
+                    "section_title": "6. The Assyrian Empire",
+                    "text": "reached its greatest size and political influence. Although the Assyrians are often remembered for their military power, they also made important cultural and intellectual contributions. King Ashurbanipal founded the famous Library of Nineveh, which contained thousands of clay tablets written in cuneiform. The collection preserved literature, myths, religious texts, legal documents, medical knowledge, scientific observations, and historical records. Thanks to this library, many important Mesopotamian works, including the Epic of Gilgamesh, survived to the modern world. After the death of Ashurbanipal, internal conflicts weakened the empire. At the same time, the Babylonians and Medes formed an alliance against Assyria. In 612 BCE they captured and destroyed Nineveh, and by 609 BCE the Assyrian Empire had collapsed. Although the empire came to an end, its military organization, administrative system, architecture, and preservation of knowledge had a lasting influence on later civilizations throughout the ancient Near East.",
+                    "word_count": 145,
+                    "similarity_score": 0.42780768871307373
+                },
+                {
+                    "chunk_id": 6,
+                    "source_page": 4,
+                    "section_title": "3. The Sumerians",
+                    "text": "3. The Sumerians The Sumerians were the earliest known civilization of southern Mesopotamia and are widely regarded as one of the founders of human civilization. They emerged during the late 5th and early 4th millennium BCE in the fertile plains between the Tigris and Euphrates Rivers. Their settlements gradually developed into some of the world's first cities, including Ur, Uruk, Eridu, Lagash, Nippur, and Kish. Unlike a unified kingdom, Sumer consisted of independent city-states. Each city had its own ruler, patron deity, temple, and surrounding agricultural land. These city-states often cooperated through trade but also competed for resources, leading to conflicts and changing political alliances. Temples served not only as religious centers but also as administrative and economic institutions that managed agriculture, labor, and food distribution. The fertile environment of southern Mesopotamia enabled the Sumerians to develop highly productive agriculture through irrigation. They cultivated barley, wheat, dates, onions, and other crops while raising sheep and cattle. Agricultural surpluses supported population growth, specialized occupations, and the development of complex urban societies. One of the Sumerians' greatest achievements was the invention of cuneiform writing around 3400 BCE. Initially developed to record goods, trade, and taxes, cuneiform later became a sophisticated writing system used for laws, literature, religion, education, and administration. Scribes recorded information on clay tablets using reed styluses, leaving behind thousands of documents that provide valuable insight into early civilization. The Sumerians also made important contributions to architecture, mathematics, engineering, and religion. They built monumental temples known as ziggurats, developed advanced irrigation systems, introduced the wheel and the plow into daily life, and established one of the earliest known systems of organized government. Their mathematical ideas, particularly the sexagesimal (base-60) number system, continue to influence modern measurements of time and angles. Although the Sumerians gradually lost political independence after the rise of the Akkadian Empire, their language, religion, literature, and cultural traditions continued to influence later Mesopotamian civilizations for many centuries. Their innovations laid the foundations for many aspects of urban life and remain among the most significant achievements of the ancient world.",
+                    "word_count": 342,
+                    "similarity_score": 0.40530329942703247
+                }
+            ],
+            "without_rag_answer": "Cuneiform was a writing system used by various civilizations in Mesopotamia (modern-day Iraq) from around 3200 BCE to 100 CE. It was used primarily for:\n\n* Administrative purposes, such as recording laws, business transactions, and official documents\n* Literary works, including stories, poems, and mythological texts\n* Epistolary correspondence, or written letters\n* Record-keeping, such as keeping track of agricultural production, taxes, and census data\n\nIn essence, cuneiform was a versatile writing system that served as the primary means of written communication in ancient Mesopotamia.",
+            "without_rag_response_time_seconds": 7.2423043749295175,
+            "with_rag_answer": "Cuneiform was initially developed as a practical method for recording economic activities such as trade, taxes, agricultural production, and stored goods. Over time, it evolved into a sophisticated writing system used for government administration, literature, religion, science, mathematics, and law.",
+            "with_rag_response_time_seconds": 10.881979166995734,
+            "total_rag_time_seconds": 10.968810376012698
+        },
+        {
+            "question": "Who was Hammurabi and why was he important?",
+            "expected_sections": [
+                "Babylonian Empire and Hammurabi",
+                "Government and Law"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.09819412499200553,
+            "average_similarity_score": 0.5540658334891001,
+            "retrieved_chunks": [
+                {
+                    "chunk_id": 11,
+                    "source_page": 6,
+                    "section_title": "5. The Babylonian Empire and Hammurabi",
+                    "text": "of administration, learning, trade, and religious life. The empire benefited from organized agriculture, taxation, irrigation systems, and long-distance trade that connected Mesopotamia with neighboring regions. After Hammurabi's death, his successors struggled to maintain control over the large empire. Internal revolts, territorial losses, and external attacks gradually weakened Babylonian power. Around 1595 BCE, the Hittites captured and sacked Babylon, bringing the First Babylonian Empire to an end. The Kassites later established a new dynasty and continued Babylon's political and cultural traditions. Although the Old Babylonian Empire eventually declined, its legal system, administrative organization, and cultural achievements left a lasting influence on later Mesopotamian civilizations. The Code of Hammurabi remains one of the most important historical sources for understanding law, government, and daily life in the ancient world.",
+                    "word_count": 126,
+                    "similarity_score": 0.6545941233634949
+                },
+                {
+                    "chunk_id": 10,
+                    "source_page": 6,
+                    "section_title": "5. The Babylonian Empire and Hammurabi",
+                    "text": "5. The Babylonian Empire and Hammurabi The Old Babylonian Empire emerged after the decline of the Third Dynasty of Ur and became one of the most influential states in ancient Mesopotamia. Founded by an Amorite dynasty around 1894 BCE, Babylon gradually grew from a small city into a powerful political and economic center. The empire reached its greatest strength during the reign of King Hammurabi (1792–1750 BCE). Through a series of successful military campaigns, Hammurabi defeated neighboring kingdoms such as Larsa, Eshnunna, and Mari, bringing most of Mesopotamia under Babylonian rule. His victories transformed Babylon into the dominant power of the region and established a centralized kingdom that controlled important trade routes and agricultural lands. Hammurabi is best known for creating the Code of Hammurabi, one of the oldest surviving written law codes in history. The laws were inscribed in cuneiform on a large stone stele and presented as having been given to Hammurabi by Shamash, the god of justice. The code contains nearly 300 laws regulating many aspects of society, including property, trade, agriculture, family life, labor, contracts, inheritance, and criminal offenses. The Code of Hammurabi aimed to establish justice, maintain social order, and define legal responsibilities. However, punishments were not equal for everyone. Penalties often depended on a person's social status, with different rules applying to nobles, common people, and slaves. The famous principle of \"an eye for an eye\" reflected the idea that punishment should correspond to the crime committed. Babylon was not only a political center but also an important cultural and religious city. During this period, the worship of Marduk became increasingly significant, and Babylon developed into a major center of administration, learning, trade, and religious life. The empire benefited from organized agriculture, taxation, irrigation systems, and long-distance trade that connected Mesopotamia with neighboring regions. After Hammurabi's death, his successors struggled to maintain control over the large empire. Internal revolts, territorial losses, and external attacks gradually weakened Babylonian power. Around 1595 BCE, the Hittites captured and sacked Babylon, bringing the First Babylonian Empire to an end. The Kassites later established a new dynasty and continued",
+                    "word_count": 350,
+                    "similarity_score": 0.6249730587005615
+                },
+                {
+                    "chunk_id": 19,
+                    "source_page": 10,
+                    "section_title": "9. Daily Life, Society, and Economy",
+                    "text": "rulers to organize resources more efficiently. The combination of productive agriculture, organized trade, skilled craftsmanship, and written administration created a strong economic system that supported the development of Mesopotamian civilization. Daily life depended on cooperation between farmers, merchants, artisans, officials, and religious institutions, allowing the world's earliest cities to flourish for thousands of years.",
+                    "word_count": 54,
+                    "similarity_score": 0.382630318403244
+                }
+            ],
+            "without_rag_answer": "Hammurabi (1792-1750 BCE) was a Babylonian king who ruled the city-state of Babylon in ancient Mesopotamia. He is considered one of the most important figures in human history because he implemented numerous reforms, expanded Babylon's empire, and created the famous Code of Hammurabi.\n\nThe Code of Hammurabi, inscribed on a diorite stele (stone pillar), was a collection of laws that governed the daily lives of Babylonians. It is considered one of the earliest surviving examples of written law, making it crucial for understanding the development of legal systems and the concept of justice.\n\nHammurabi's code introduced several innovations:\n\n1. **Equal protection under the law**: For the first time, laws applied equally to all people, regardless of social class or status.\n2. **Proportional punishment**: Punishments were tied to the severity of the crime, rather than being arbitrary or based on personal relationships.\n3. **Prevention of abuse**: Laws protected individuals from exploitation and abuse by government officials and powerful individuals.\n\nHammurabi's reign marked a period of significant cultural, economic, and political growth in Babylon, solidifying his importance in history.",
+            "without_rag_response_time_seconds": 13.500074832933024,
+            "with_rag_answer": "Hammurabi was a king who ruled Babylon from 1792-1750 BCE. He is best known for creating the Code of Hammurabi, one of the oldest surviving written law codes in history. The code contains nearly 300 laws regulating many aspects of society and aimed to establish justice, maintain social order, and define legal responsibilities.",
+            "with_rag_response_time_seconds": 9.650745542021468,
+            "total_rag_time_seconds": 9.748939667013474
+        },
+        {
+            "question": "How did irrigation support Mesopotamian agriculture?",
+            "expected_sections": [
+                "Agriculture and Irrigation",
+                "Geography and the Fertile Crescent"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.2195943749975413,
+            "average_similarity_score": 0.7093714872996012,
+            "retrieved_chunks": [
+                {
+                    "chunk_id": 20,
+                    "source_page": 11,
+                    "section_title": "10. Agriculture and Irrigation",
+                    "text": "10. Agriculture and Irrigation Agriculture was the foundation of Mesopotamian civilization and the main source of food, wealth, and economic activity. The fertile land between the Tigris and Euphrates rivers allowed farmers to cultivate crops such as barley, wheat, dates, lentils, onions, sesame, and other vegetables. Livestock, including sheep, goats, cattle, and donkeys, also played an important role by providing meat, milk, wool, leather, and transportation. Because southern Mesopotamia received very little rainfall, successful farming depended on irrigation. Farmers constructed extensive networks of canals, ditches, reservoirs, and water-control systems that carried river water to agricultural fields. These irrigation systems required continuous maintenance and were often supervised by temples, local authorities, or the government. Large numbers of workers cooperated to build, repair, and clean canals so that water could reach cultivated land throughout the year. The development of irrigation greatly increased agricultural production and made it possible to support growing populations, permanent settlements, and large cities. Reliable food supplies encouraged urbanization, trade, and the growth of powerful states. Agricultural surpluses also allowed governments to collect taxes, support professional workers, and finance major construction projects such as temples, palaces, and city walls. Mesopotamian farmers developed practical techniques to improve productivity, including careful water management, crop rotation, and the cultivation of crops suited to the region's dry climate. Date palm orchards became especially valuable because they provided food, shade, wood, and materials for everyday life. Sheep farming was also essential, supplying the wool used in the region's important textile industry. Despite these achievements, agriculture faced several challenges. Floods could damage crops and settlements, while poor irrigation practices gradually caused soil salinization, reducing the fertility of farmland over time. Managing water resources effectively therefore remained one of the greatest responsibilities of Mesopotamian governments and local communities. The combination of agriculture and irrigation became the economic foundation that supported the rise of the world's earliest urban civilizations.",
+                    "word_count": 312,
+                    "similarity_score": 0.7682024240493774
+                },
+                {
+                    "chunk_id": 21,
+                    "source_page": 11,
+                    "section_title": "10. Agriculture and Irrigation",
+                    "text": "Managing water resources effectively therefore remained one of the greatest responsibilities of Mesopotamian governments and local communities. The combination of agriculture and irrigation became the economic foundation that supported the rise of the world's earliest urban civilizations.",
+                    "word_count": 37,
+                    "similarity_score": 0.704133152961731
+                },
+                {
+                    "chunk_id": 4,
+                    "source_page": 3,
+                    "section_title": "2. Geography of Mesopotamia",
+                    "text": "2. Geography of Mesopotamia The geography of Mesopotamia played a fundamental role in the development of its early civilizations. The region was located between the Tigris and Euphrates Rivers, whose name \"Mesopotamia\" means \"land between rivers.\" These rivers originate in the Armenian Highlands and flow southeast before joining together and emptying into the Persian Gulf. Their waters provided the foundation for agriculture, transportation, trade, and urban development. Mesopotamia formed the eastern part of the Fertile Crescent, a region known for its fertile soil and favorable conditions for farming. While northern Mesopotamia received enough seasonal rainfall to support agriculture, the southern region was much drier and depended heavily on irrigation. Early inhabitants constructed canals, dikes, reservoirs, and other water-management systems to distribute river water to their fields. These irrigation networks allowed crops to be grown consistently despite the region's semi-arid climate. The landscape of Mesopotamia was highly diverse. The northern areas contained rolling plains and foothills near the Zagros Mountains, while the southern region was characterized by vast marshes, wetlands, and fertile river valleys. The Mesopotamian Marshes supported fishing, transportation by boat, and unique settlements built from reeds, making them an important part of the region's environment and culture. Despite its agricultural advantages, Mesopotamia faced several geographical challenges. The Tigris and Euphrates frequently flooded, but unlike the predictable floods of the Nile, their flooding was often irregular and could damage crops and settlements. Successful farming therefore depended on careful planning, cooperation, and the maintenance of irrigation systems. These demands encouraged the growth of organized communities and later contributed to the development of centralized governments. The region also lacked many natural resources such as stone, timber, and metal ores. As a result, Mesopotamian societies established extensive trade networks to import these materials from neighboring regions while exporting agricultural products, textiles, and manufactured goods. Geography therefore shaped not only the economy but also the political organization and cultural development of Mesopotamian civilization.",
+                    "word_count": 319,
+                    "similarity_score": 0.6557788848876953
+                }
+            ],
+            "without_rag_answer": "Irrigation played a crucial role in supporting Mesopotamian agriculture by allowing farmers to cultivate crops in areas with limited rainfall. The Tigris and Euphrates rivers, which flowed through the region, provided the water source for irrigation canals and systems.\n\nMesopotamians developed sophisticated irrigation networks that included:\n\n1. Canals: Thousands of kilometers of canals were built to distribute water from the rivers to fields.\n2. Reservoirs: Artificial lakes were created to store water during times of plenty, allowing for controlled release during droughts.\n3. Dikes and dams: Structures were built to regulate floodwaters and prevent soil erosion.\n\nIrrigation enabled Mesopotamian farmers to:\n\n1. Cultivate crops in areas with low rainfall, such as wheat and barley.\n2. Support the growth of more water-intensive crops like rice, dates, and flax.\n3. Increase agricultural productivity and food production, supporting population growth and urbanization.\n\nOverall, irrigation was a key factor in the development of Mesopotamian civilization, allowing for the creation of settled agriculture, cities, and trade networks that would eventually give rise to ancient empires like Babylon and Assyria.",
+            "without_rag_response_time_seconds": 13.529142583953217,
+            "with_rag_answer": "Irrigation supported Mesopotamian agriculture by carrying river water to agricultural fields, allowing crops to be grown consistently despite the region's semi-arid climate. It also required continuous maintenance and was often supervised by temples, local authorities, or the government, which allowed for large-scale agricultural production and the support of growing populations, permanent settlements, and large cities.",
+            "with_rag_response_time_seconds": 10.757390249986202,
+            "total_rag_time_seconds": 10.976984624983743
+        },
+        {
+            "question": "What military advantages did the Assyrians have?",
+            "expected_sections": [
+                "Assyrian Empire"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.10340583394281566,
+            "average_similarity_score": 0.5460493266582489,
+            "retrieved_chunks": [
+                {
+                    "chunk_id": 12,
+                    "source_page": 7,
+                    "section_title": "6. The Assyrian Empire",
+                    "text": "6. The Assyrian Empire The Assyrian Empire was one of the greatest military powers of the ancient Near East. Originating in northern Mesopotamia with its capital at Assur, the Assyrians gradually expanded their territory through military strength, political organization, and effective administration. The empire reached its greatest extent during the Neo-Assyrian period (911–609 BCE), controlling lands from the Persian Gulf to Egypt and becoming the largest empire the world had seen at that time. The success of the Assyrian Empire was largely based on its highly organized military system. Assyrian armies used iron weapons, cavalry, war chariots, archers, and advanced siege machines to capture heavily fortified cities. Their soldiers were professionally trained, and military campaigns were carefully planned and supported by engineering skills, including the construction of bridges, roads, and siege ramps. These innovations made the Assyrian army one of the strongest and most effective military forces of the ancient world. The Assyrians also created an efficient system of government to manage their vast empire. Conquered territories were divided into provinces ruled by governors who collected taxes, maintained order, and reported directly to the king. A well-developed network of roads, relay stations, and messengers allowed information to travel quickly across the empire, making communication and administration more effective. Tribute collected from conquered regions helped support the army, public works, and royal projects. Several powerful kings contributed to the expansion of the empire. Ashurnasirpal II strengthened Assyrian authority and built the city of Nimrud as a royal capital. Tiglath-Pileser III reorganized the military and centralized the government, while Sargon II and Sennacherib further expanded the empire and established new capitals. Under Esarhaddon and Ashurbanipal, the empire reached its greatest size and political influence. Although the Assyrians are often remembered for their military power, they also made important cultural and intellectual contributions. King Ashurbanipal founded the famous Library of Nineveh, which contained thousands of clay tablets written in cuneiform. The collection preserved literature, myths, religious texts, legal documents, medical knowledge, scientific observations, and historical records. Thanks to this library, many important Mesopotamian works, including the Epic of Gilgamesh, survived to the modern",
+                    "word_count": 350,
+                    "similarity_score": 0.6952006816864014
+                },
+                {
+                    "chunk_id": 13,
+                    "source_page": 7,
+                    "section_title": "6. The Assyrian Empire",
+                    "text": "reached its greatest size and political influence. Although the Assyrians are often remembered for their military power, they also made important cultural and intellectual contributions. King Ashurbanipal founded the famous Library of Nineveh, which contained thousands of clay tablets written in cuneiform. The collection preserved literature, myths, religious texts, legal documents, medical knowledge, scientific observations, and historical records. Thanks to this library, many important Mesopotamian works, including the Epic of Gilgamesh, survived to the modern world. After the death of Ashurbanipal, internal conflicts weakened the empire. At the same time, the Babylonians and Medes formed an alliance against Assyria. In 612 BCE they captured and destroyed Nineveh, and by 609 BCE the Assyrian Empire had collapsed. Although the empire came to an end, its military organization, administrative system, architecture, and preservation of knowledge had a lasting influence on later civilizations throughout the ancient Near East.",
+                    "word_count": 145,
+                    "similarity_score": 0.47479248046875
+                },
+                {
+                    "chunk_id": 14,
+                    "source_page": 8,
+                    "section_title": "7. Government and Law",
+                    "text": "7. Government and Law Government developed in Mesopotamia as growing populations required organization and cooperation. The construction of irrigation canals, management of agriculture, collection of food supplies, defense, trade, and religious ceremonies all required effective leadership. Early Mesopotamia was divided into independent city-states such as Ur, Uruk, Lagash, and Kish, each ruled by its own king and protected by its own walls. Although these city-states often competed with one another, they shared many cultural and religious traditions. In the earliest periods, rulers were closely connected to temples and religious authority. Mesopotamians believed that kings ruled with the approval of the gods and were responsible for maintaining order, justice, and prosperity. Unlike the pharaohs of ancient Egypt, however, Mesopotamian kings were not considered gods themselves. As kingdoms expanded into larger empires, royal authority increased. Kings collected taxes, commanded armies, supervised public construction projects, managed irrigation systems, and appointed officials to govern different regions. Large empires such as Assyria divided their territory into provinces, each governed by officials responsible for collecting taxes, enforcing laws, maintaining security, and providing soldiers when needed. This administrative system allowed rulers to control vast territories more efficiently through organized communication and local government. One of the greatest achievements of Mesopotamian civilization was the development of written laws. Early legal codes appeared before Babylonian times, but the most famous example is the Code of Hammurabi, created around 1750 BCE. The code contained nearly 300 laws covering subjects such as property ownership, trade, family life, labor, contracts, inheritance, crime, and punishment. These laws were publicly displayed to ensure that legal rules were known throughout the kingdom. The Code of Hammurabi emphasized justice, social order, and personal responsibility. However, punishments were not always equal because penalties often depended on a person's social class. Despite this inequality, the code represented an important step toward organized government and the rule of law. Mesopotamian legal traditions influenced later civilizations and remain one of the earliest examples of a written legal system in human history.",
+                    "word_count": 331,
+                    "similarity_score": 0.46815481781959534
+                }
+            ],
+            "without_rag_answer": "The Assyrians had several military advantages that contributed to their success and dominance in ancient Mesopotamia:\n\n1. **Organization and Logistics**: The Assyrian army was highly organized, with a centralized command structure and a well-developed logistics system. This allowed them to maintain a large and mobile force, with supplies and equipment readily available.\n2. **Iron Technology**: The Assyrians were one of the first civilizations to widely use iron in their warfare. Iron weapons, such as swords and armor, gave them an edge over their enemies who relied on bronze or copper.\n3. **Chariot Warfare**: The Assyrians developed a highly effective chariot force, which allowed them to rapidly deploy mobile striking power across the battlefield. Their chariots were fast, maneuverable, and heavily armed with bows, spears, and stones.\n4. **Siege Engines**: The Assyrians pioneered the use of siege engines, such as battering rams, catapults, and towers, which enabled them to breach fortifications and capture well-fortified cities.\n5. **Tactical Flexibility**: Assyrian armies were highly adaptable and able to adjust their tactics to suit different situations and opponents. They often employed ambushes, flanking maneuvers, and feints to gain an advantage.\n\nThese military advantages allowed the Assyrians to rapidly expand their empire, conquer vast territories, and become one of the most feared and dominant powers in ancient Mesopotamia.",
+            "without_rag_response_time_seconds": 16.52676929102745,
+            "with_rag_answer": "According to the provided context, the Assyrian Empire had several military advantages:\n\n* They used iron weapons.\n* They had cavalry.\n* They used war chariots.\n* They had archers.\n* They employed advanced siege machines.\n* Their soldiers were professionally trained.\n* Military campaigns were carefully planned and supported by engineering skills, including the construction of bridges, roads, and siege ramps.",
+            "with_rag_response_time_seconds": 13.417845375020988,
+            "total_rag_time_seconds": 13.521251208963804
+        },
+        {
+            "question": "What purpose did ziggurats serve in Mesopotamian civilization?",
+            "expected_sections": [
+                "Architecture and Ziggurats",
+                "Religion and Mythology"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.5403299169847742,
+            "average_similarity_score": 0.6027154922485352,
+            "retrieved_chunks": [
+                {
+                    "chunk_id": 26,
+                    "source_page": 14,
+                    "section_title": "13. Architecture and Ziggurats",
+                    "text": "13. Architecture and Ziggurats Architecture played an important role in Mesopotamian civilization, reflecting both practical needs and religious beliefs. Because stone and timber were scarce in much of the region, builders mainly used sun-dried and baked mudbricks as their primary construction material. Despite these limitations, Mesopotamian engineers created large cities with impressive public buildings, defensive walls, canals, and monumental temples. Most Mesopotamian cities were carefully planned and included residential houses, administrative buildings, temples, palaces, markets, city walls, and large gates. Defensive walls protected cities from invasion, while canals supplied water for agriculture and daily life. Royal palaces served as political centers where kings governed their kingdoms, and temples functioned as both religious and economic institutions. The most distinctive architectural achievement of Mesopotamia was the ziggurat. A ziggurat was a massive stepped temple built from mudbrick with several levels rising toward the sky. Each major city usually had its own ziggurat dedicated to its patron deity. At the top stood a sacred shrine where priests performed religious ceremonies and offerings. Rather than serving as places for ordinary worship, ziggurats symbolized the connection between heaven and earth and demonstrated the importance of religion in public life. One of the best-known examples is the Ziggurat of Ur, which remains one of the most famous surviving monuments of ancient Mesopotamia. Another remarkable structure was the Ishtar Gate of Babylon, built during the reign of King Nebuchadnezzar II. Decorated with colorful glazed bricks and images of lions, dragons, and bulls, it served as one of the grand entrances to the city and reflected Babylon's wealth and artistic achievements. The construction of monumental buildings required careful planning, skilled craftsmen, large numbers of workers, and strong political organization. Kings often sponsored major building projects to demonstrate their authority and honor the gods. As a result, Mesopotamian architecture not only provided practical structures but also expressed the civilization's religious beliefs, technological skills, and political power.",
+                    "word_count": 317,
+                    "similarity_score": 0.7276508808135986
+                },
+                {
+                    "chunk_id": 4,
+                    "source_page": 3,
+                    "section_title": "2. Geography of Mesopotamia",
+                    "text": "2. Geography of Mesopotamia The geography of Mesopotamia played a fundamental role in the development of its early civilizations. The region was located between the Tigris and Euphrates Rivers, whose name \"Mesopotamia\" means \"land between rivers.\" These rivers originate in the Armenian Highlands and flow southeast before joining together and emptying into the Persian Gulf. Their waters provided the foundation for agriculture, transportation, trade, and urban development. Mesopotamia formed the eastern part of the Fertile Crescent, a region known for its fertile soil and favorable conditions for farming. While northern Mesopotamia received enough seasonal rainfall to support agriculture, the southern region was much drier and depended heavily on irrigation. Early inhabitants constructed canals, dikes, reservoirs, and other water-management systems to distribute river water to their fields. These irrigation networks allowed crops to be grown consistently despite the region's semi-arid climate. The landscape of Mesopotamia was highly diverse. The northern areas contained rolling plains and foothills near the Zagros Mountains, while the southern region was characterized by vast marshes, wetlands, and fertile river valleys. The Mesopotamian Marshes supported fishing, transportation by boat, and unique settlements built from reeds, making them an important part of the region's environment and culture. Despite its agricultural advantages, Mesopotamia faced several geographical challenges. The Tigris and Euphrates frequently flooded, but unlike the predictable floods of the Nile, their flooding was often irregular and could damage crops and settlements. Successful farming therefore depended on careful planning, cooperation, and the maintenance of irrigation systems. These demands encouraged the growth of organized communities and later contributed to the development of centralized governments. The region also lacked many natural resources such as stone, timber, and metal ores. As a result, Mesopotamian societies established extensive trade networks to import these materials from neighboring regions while exporting agricultural products, textiles, and manufactured goods. Geography therefore shaped not only the economy but also the political organization and cultural development of Mesopotamian civilization.",
+                    "word_count": 319,
+                    "similarity_score": 0.5419979095458984
+                },
+                {
+                    "chunk_id": 23,
+                    "source_page": 12,
+                    "section_title": "11. Cuneiform Writing",
+                    "text": "the foundations of organized government, education, economic management, and cultural development, making it one of the greatest achievements of ancient Mesopotamia.",
+                    "word_count": 21,
+                    "similarity_score": 0.5384976863861084
+                }
+            ],
+            "without_rag_answer": "In Mesopotamian civilization, ziggurats served as temples dedicated to the worship of specific gods and goddesses. They were designed to provide a physical connection between heaven and earth, allowing priests to communicate with the divine. The pyramidal shape of the ziggurat was believed to resemble the mythical mountain, where humans and gods once lived together. Ziggurats also housed sacred texts, such as the Epic of Gilgamesh, and served as centers for astronomical observations, priestly training, and offerings to the gods.",
+            "without_rag_response_time_seconds": 6.910203291918151,
+            "with_rag_answer": "According to the provided context, ziggurats served as \"massive stepped temples\" that symbolized the connection between heaven and earth and demonstrated the importance of religion in public life. At the top stood a sacred shrine where priests performed religious ceremonies and offerings.",
+            "with_rag_response_time_seconds": 11.806897833943367,
+            "total_rag_time_seconds": 12.347227750928141
+        },
+        {
+            "question": "How did Mesopotamians contribute to mathematics and astronomy?",
+            "expected_sections": [
+                "Science, Mathematics, and Astronomy"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.4989483749959618,
+            "average_similarity_score": 0.6231945355733236,
+            "retrieved_chunks": [
+                {
+                    "chunk_id": 24,
+                    "source_page": 13,
+                    "section_title": "12. Science, Mathematics, and Astronomy",
+                    "text": "12. Science, Mathematics, and Astronomy Mesopotamian civilizations made remarkable advances in science, mathematics, astronomy, and medicine. Their knowledge developed from practical needs such as agriculture, construction, trade, taxation, and administration, but it also contributed to important scientific discoveries that influenced later civilizations. One of Mesopotamia's greatest mathematical achievements was the development of the sexagesimal, or base-60, number system. This system is still used today for measuring time and angles, with 60 seconds in a minute, 60 minutes in an hour, and 360 degrees in a circle. Mesopotamian mathematicians also solved geometric problems, calculated areas and volumes, and produced accurate numerical approximations for mathematical values such as the square root of two. Mathematics played an essential role in everyday life. It was used to measure land, design buildings, calculate taxes, record commercial transactions, and organize agricultural production. Clay tablets show that Babylonian scholars developed sophisticated methods for solving mathematical problems and recording numerical data. Astronomy was another major achievement of Mesopotamian civilization. Priests and astronomers carefully observed the movements of the Sun, Moon, planets, and stars over long periods. Their observations allowed them to create a twelve-month calendar, determine the changing seasons, and predict astronomical events such as eclipses. These records also helped establish reliable calendars for agriculture, religious festivals, and government administration. Mesopotamian scholars believed that celestial events reflected patterns in the natural world, so astronomy became closely connected with religion and the interpretation of omens. Nevertheless, their careful observations and mathematical calculations laid important foundations for later astronomical research in Greece, the Islamic world, and Europe. Medicine also developed significantly in Mesopotamia. Physicians recorded symptoms, diagnosed illnesses, prescribed treatments, and compiled medical texts on clay tablets. They combined practical observation with religious beliefs, using both medicines and ritual practices to treat patients. Together, these achievements in mathematics, astronomy, and medicine demonstrate the advanced scientific knowledge that developed in ancient Mesopotamia and influenced many later civilizations.",
+                    "word_count": 316,
+                    "similarity_score": 0.744982123374939
+                },
+                {
+                    "chunk_id": 19,
+                    "source_page": 10,
+                    "section_title": "9. Daily Life, Society, and Economy",
+                    "text": "rulers to organize resources more efficiently. The combination of productive agriculture, organized trade, skilled craftsmanship, and written administration created a strong economic system that supported the development of Mesopotamian civilization. Daily life depended on cooperation between farmers, merchants, artisans, officials, and religious institutions, allowing the world's earliest cities to flourish for thousands of years.",
+                    "word_count": 54,
+                    "similarity_score": 0.5703336000442505
+                },
+                {
+                    "chunk_id": 25,
+                    "source_page": 13,
+                    "section_title": "12. Science, Mathematics, and Astronomy",
+                    "text": "clay tablets. They combined practical observation with religious beliefs, using both medicines and ritual practices to treat patients. Together, these achievements in mathematics, astronomy, and medicine demonstrate the advanced scientific knowledge that developed in ancient Mesopotamia and influenced many later civilizations.",
+                    "word_count": 41,
+                    "similarity_score": 0.5542678833007812
+                }
+            ],
+            "without_rag_answer": "Mesopotamians, specifically the Babylonians and Assyrians, made significant contributions to mathematics and astronomy. Here are some key achievements:\n\n**Mathematics:**\n\n1. **Place-value system:** They developed a decimal (base-10) place-value system, where each digit in a number had a specific position and value. This innovation allowed for more complex calculations and paved the way for modern arithmetic.\n2. **Algebraic methods:** Babylonian mathematicians used algebraic methods to solve equations, which is evident from the YBC 7289 tablet (circa 1800 BCE).\n3. **Geometric calculations:** They calculated areas and volumes of various shapes, including triangles, squares, rectangles, circles, and spheres.\n4. **Simplification of fractions:** Mesopotamians simplified complex fractions by reducing them to equivalent simpler forms.\n\n**Astronomy:**\n\n1. **Solar system understanding:** The Babylonians recognized the planets Mercury, Venus, Mars, Jupiter, and Saturn, and understood that they orbited the Sun.\n2. **Lunar cycles:** They accurately tracked lunar cycles, including the 29.5-day synodic month (the time between full moons).\n3. **Eclipse predictions:** By studying eclipse patterns, Mesopotamians developed methods to predict solar and lunar eclipses with reasonable accuracy.\n4. **Star catalogues:** Assyrian astronomers compiled star catalogues, which helped them understand the movements of celestial bodies.\n\nThese contributions had a lasting impact on the development of mathematics and astronomy in ancient civilizations and beyond.",
+            "without_rag_response_time_seconds": 32.94507474999409,
+            "with_rag_answer": "According to the context, Mesopotamian civilization made significant contributions to mathematics and astronomy. In mathematics, they developed the sexagesimal, or base-60, number system, which is still used today for measuring time and angles. They also solved geometric problems, calculated areas and volumes, and produced accurate numerical approximations for mathematical values such as the square root of two.\n\nIn astronomy, Mesopotamian scholars carefully observed the movements of the Sun, Moon, planets, and stars over long periods, creating a twelve-month calendar, determining the changing seasons, and predicting astronomical events such as eclipses. Their observations allowed them to establish reliable calendars for agriculture, religious festivals, and government administration, laying important foundations for later astronomical research in Greece, the Islamic world, and Europe.",
+            "with_rag_response_time_seconds": 25.556175667094067,
+            "total_rag_time_seconds": 26.05512404209003
+        },
+        {
+            "question": "What was Hammurabi's favorite food?",
+            "expected_sections": [],
+            "retrieval_correct": false,
+            "retrieval_time_seconds": 0.26139470806811005,
+            "average_similarity_score": 0.4224116802215576,
+            "retrieved_chunks": [
+                {
+                    "chunk_id": 11,
+                    "source_page": 6,
+                    "section_title": "5. The Babylonian Empire and Hammurabi",
+                    "text": "of administration, learning, trade, and religious life. The empire benefited from organized agriculture, taxation, irrigation systems, and long-distance trade that connected Mesopotamia with neighboring regions. After Hammurabi's death, his successors struggled to maintain control over the large empire. Internal revolts, territorial losses, and external attacks gradually weakened Babylonian power. Around 1595 BCE, the Hittites captured and sacked Babylon, bringing the First Babylonian Empire to an end. The Kassites later established a new dynasty and continued Babylon's political and cultural traditions. Although the Old Babylonian Empire eventually declined, its legal system, administrative organization, and cultural achievements left a lasting influence on later Mesopotamian civilizations. The Code of Hammurabi remains one of the most important historical sources for understanding law, government, and daily life in the ancient world.",
+                    "word_count": 126,
+                    "similarity_score": 0.509616494178772
+                },
+                {
+                    "chunk_id": 10,
+                    "source_page": 6,
+                    "section_title": "5. The Babylonian Empire and Hammurabi",
+                    "text": "5. The Babylonian Empire and Hammurabi The Old Babylonian Empire emerged after the decline of the Third Dynasty of Ur and became one of the most influential states in ancient Mesopotamia. Founded by an Amorite dynasty around 1894 BCE, Babylon gradually grew from a small city into a powerful political and economic center. The empire reached its greatest strength during the reign of King Hammurabi (1792–1750 BCE). Through a series of successful military campaigns, Hammurabi defeated neighboring kingdoms such as Larsa, Eshnunna, and Mari, bringing most of Mesopotamia under Babylonian rule. His victories transformed Babylon into the dominant power of the region and established a centralized kingdom that controlled important trade routes and agricultural lands. Hammurabi is best known for creating the Code of Hammurabi, one of the oldest surviving written law codes in history. The laws were inscribed in cuneiform on a large stone stele and presented as having been given to Hammurabi by Shamash, the god of justice. The code contains nearly 300 laws regulating many aspects of society, including property, trade, agriculture, family life, labor, contracts, inheritance, and criminal offenses. The Code of Hammurabi aimed to establish justice, maintain social order, and define legal responsibilities. However, punishments were not equal for everyone. Penalties often depended on a person's social status, with different rules applying to nobles, common people, and slaves. The famous principle of \"an eye for an eye\" reflected the idea that punishment should correspond to the crime committed. Babylon was not only a political center but also an important cultural and religious city. During this period, the worship of Marduk became increasingly significant, and Babylon developed into a major center of administration, learning, trade, and religious life. The empire benefited from organized agriculture, taxation, irrigation systems, and long-distance trade that connected Mesopotamia with neighboring regions. After Hammurabi's death, his successors struggled to maintain control over the large empire. Internal revolts, territorial losses, and external attacks gradually weakened Babylonian power. Around 1595 BCE, the Hittites captured and sacked Babylon, bringing the First Babylonian Empire to an end. The Kassites later established a new dynasty and continued",
+                    "word_count": 350,
+                    "similarity_score": 0.4575001299381256
+                },
+                {
+                    "chunk_id": 18,
+                    "source_page": 10,
+                    "section_title": "9. Daily Life, Society, and Economy",
+                    "text": "9. Daily Life, Society, and Economy Mesopotamian society was organized into a clear social hierarchy. At the top were kings, priests, nobles, and high-ranking officials who controlled government, religion, and military affairs. Below them were merchants, scribes, artisans, farmers, and laborers who formed the majority of the population. Enslaved people occupied the lowest level of society and worked in households, temples, farms, and large construction projects. Agriculture was the foundation of everyday life and the economy. The fertile lands between the Tigris and Euphrates rivers allowed farmers to grow crops such as barley, wheat, dates, onions, and vegetables. Because rainfall was limited, irrigation canals, dams, and drainage systems were built to provide water for farming. These engineering projects made large-scale agriculture possible and supported the growth of cities and permanent settlements. As cities expanded, many specialized occupations developed. Artisans produced pottery, textiles, jewelry, metal tools, and weapons, while builders constructed houses, temples, canals, and city walls. Merchants traded agricultural products as well as valuable goods such as wool, metals, timber, stone, and luxury items imported from neighboring regions. Long-distance trade connected Mesopotamia with Anatolia, Egypt, Persia, and the Indus Valley, making the region an important center of commerce. Temples and royal palaces played a central role in the economy. They owned large areas of farmland, organized agricultural production, employed workers, stored food supplies, and distributed resources throughout society. These institutions also supervised major building projects and collected taxes and tribute from surrounding regions. Writing became essential for managing economic activities. Scribes recorded taxes, wages, land ownership, trade agreements, inventories, and government transactions on clay tablets using cuneiform writing. These written records improved administration and allowed rulers to organize resources more efficiently. The combination of productive agriculture, organized trade, skilled craftsmanship, and written administration created a strong economic system that supported the development of Mesopotamian civilization. Daily life depended on cooperation between farmers, merchants, artisans, officials, and religious institutions, allowing the world's earliest cities to flourish for thousands of years.",
+                    "word_count": 329,
+                    "similarity_score": 0.30011841654777527
+                }
+            ],
+            "without_rag_answer": "There is no definitive answer to what Hammurabi's favorite food was. Hammurabi was a Babylonian king who ruled from 1792 to 1750 BC, and while we have records of his laws and military campaigns, there is no surviving evidence that reveals his personal preferences or habits, including his favorite foods.",
+            "without_rag_response_time_seconds": 7.501896834000945,
+            "with_rag_answer": "I could not find that information in the provided document.",
+            "with_rag_response_time_seconds": 7.165373333031312,
+            "total_rag_time_seconds": 7.426768041099422
+        },
+        {
+            "question": "What themes are explored in the Epic of Gilgamesh?",
+            "expected_sections": [
+                "Religion and Mythology"
+            ],
+            "retrieval_correct": true,
+            "retrieval_time_seconds": 0.38347666698973626,
+            "average_similarity_score": 0.4901152352492015,
+            "retrieved_chunks": [
+                {
+                    "chunk_id": 17,
+                    "source_page": 9,
+                    "section_title": "8. Religion and Mythology",
+                    "text": "According to this tradition, humans were created to perform labor and maintain the order established by the gods. Another important myth is Atrahasis, which tells the story of humanity's creation and a great flood sent by the gods. Warned by the god Enki, Atrahasis built a boat and survived the flood, preserving human life. Similar flood traditions also appear in the Eridu Genesis. The Epic of Gilgamesh is one of the most important works of Mesopotamian mythology. Through the adventures of King Gilgamesh and his companion Enkidu, the epic explores themes such as friendship, mortality, destiny, and the human desire for immortality. Together, these myths reveal how Mesopotamians understood the universe, the power of the gods, and humanity's place within the divine order.",
+                    "word_count": 123,
+                    "similarity_score": 0.6882327198982239
+                },
+                {
+                    "chunk_id": 13,
+                    "source_page": 7,
+                    "section_title": "6. The Assyrian Empire",
+                    "text": "reached its greatest size and political influence. Although the Assyrians are often remembered for their military power, they also made important cultural and intellectual contributions. King Ashurbanipal founded the famous Library of Nineveh, which contained thousands of clay tablets written in cuneiform. The collection preserved literature, myths, religious texts, legal documents, medical knowledge, scientific observations, and historical records. Thanks to this library, many important Mesopotamian works, including the Epic of Gilgamesh, survived to the modern world. After the death of Ashurbanipal, internal conflicts weakened the empire. At the same time, the Babylonians and Medes formed an alliance against Assyria. In 612 BCE they captured and destroyed Nineveh, and by 609 BCE the Assyrian Empire had collapsed. Although the empire came to an end, its military organization, administrative system, architecture, and preservation of knowledge had a lasting influence on later civilizations throughout the ancient Near East.",
+                    "word_count": 145,
+                    "similarity_score": 0.4313819110393524
+                },
+                {
+                    "chunk_id": 27,
+                    "source_page": 14,
+                    "section_title": "13. Architecture and Ziggurats",
+                    "text": "of workers, and strong political organization. Kings often sponsored major building projects to demonstrate their authority and honor the gods. As a result, Mesopotamian architecture not only provided practical structures but also expressed the civilization's religious beliefs, technological skills, and political power.",
+                    "word_count": 42,
+                    "similarity_score": 0.3507310748100281
+                }
+            ],
+            "without_rag_answer": "The Epic of Gilgamesh explores several major themes, including:\n\n1. **Friendship and Loyalty**: The friendship between Gilgamesh and Enkidu is a central theme of the epic. It highlights the importance of loyal companionship and the emotional bond between friends.\n2. **Human Nature**: The story examines human nature, showcasing both positive and negative aspects. Gilgamesh's transformation from an arrogant tyrant to a wise and compassionate leader illustrates the potential for personal growth and self-awareness.\n3. **Mortality and Immortality**: The epic grapples with the universal human fear of death and the quest for immortality. Gilgamesh's journey is motivated by his desire to overcome mortality and achieve eternal life, highlighting the tension between mortal limitations and the desire for transcendence.\n4. **Power and Responsibility**: The story explores the consequences of unchecked power and the responsibility that comes with it. Gilgamesh's initial tyranny and eventual transformation serve as a cautionary tale about the importance of balancing power with compassion and wisdom.\n5. **Love, Loss, and Grief**: The epic also delves into the themes of love, loss, and grief, as seen in the stories of Enkidu's death and Gilgamesh's subsequent mourning.\n\nThese themes continue to resonate with readers today, making the Epic of Gilgamesh a timeless and thought-provoking work of literature.",
+            "without_rag_response_time_seconds": 28.374995791935362,
+            "with_rag_answer": "According to the context, the Epic of Gilgamesh explores themes such as:\n\n* Friendship\n* Mortality\n* Destiny\n* The human desire for immortality",
+            "with_rag_response_time_seconds": 8.9820525420364,
+            "total_rag_time_seconds": 9.365529209026136
+        }
+    ]
+}

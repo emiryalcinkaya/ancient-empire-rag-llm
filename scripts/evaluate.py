@@ -52,7 +52,7 @@ import numpy as np
 
 # Existing project functions for loading the vector index,
 # metadata, and embedding model.
-from scripts.rag import (
+from rag import (
     load_faiss_index,
     load_metadata,
     load_embedding_model,
@@ -61,7 +61,7 @@ from scripts.rag import (
 )
 
 # Existing function used to send prompts to the LLM.
-from scripts.llm import generate_answer
+from llm import generate_answer
 
 
 # ----------------------------------------------------------
